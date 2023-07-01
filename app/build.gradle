@@ -8,6 +8,10 @@ plugins {
 android {
     namespace 'com.example.hesap_makesi'
     compileSdk 33
+    buildFeatures{
+        dataBinding true
+    }
+
 
 
     defaultConfig {
